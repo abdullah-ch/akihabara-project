@@ -16,10 +16,10 @@ const schemaManga = new mongoose.Schema({
     required: true,
   },
   price: {
-    type: number,
+    type: Number,
     required: true,
   },
 });
 
-const Mangas = mongoose.model("Mangas", schemaMangas);
+const Mangas = mongoose.model("Mangas", schemaManga);
 module.exports.Mangas = Mangas;

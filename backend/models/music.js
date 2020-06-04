@@ -19,7 +19,7 @@ const schemaMusic = new mongoose.Schema({
   },
 
   price: {
-    type: number,
+    type: Number,
     required: true,
   },
 });

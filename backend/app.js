@@ -2,7 +2,12 @@ const express = require("express");
 const mongoose = require("mongoose");
 const customer = require("./routers/customers");
 const employee = require("./routers/employee");
-const anime = require("./routers/anime")
+const anime = require("./routers/anime");
+const game = require("./routers/games");
+const manga = require("./routers/mangas");
+const music = require("./routers/music");
+const movies = require("./routers/movies");
+const merch = require("./routers/merch");
 
 mongoose
   .connect("mongodb://localhost:27017/akihabara-project", {
@@ -34,10 +39,13 @@ app.use((req, res, next) => {
 app.use("/customers",customer);
 app.use("/employees", employee);
 app.use("/anime", anime);
+app.use("/games", game);
+app.use("/mangas", manga);  
+app.use("/merch", merch);
+app.use("/music", music);
+app.use("/movies", movies);
 
-
-
-const port = process.env.PORT || 4000;
+const port = process.env.PORT || 5000;
 app.listen(port, () => {
   console.log(`I am listening at ${port}`);
 });

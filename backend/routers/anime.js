@@ -4,7 +4,7 @@ const { Animes } = require("../models/anime");
 const router = express.Router();
 
 router.get("/", async (req, res) => {
-    const anime = await Anime.find();
+    const anime = await Animes.find();
     console.log(anime);
 
     return res.send(anime);
@@ -13,7 +13,7 @@ router.get("/", async (req, res) => {
 router.post("/add", async (req, res) => {
     console.log("Working");
 
-    var anime = new Anime({
+    var anime = new Animes({
         animeName: req.body.animeName,
         animeStudio: req.body.animeStudio,
         animeDirector: req.body.animeDirector,
@@ -28,7 +28,7 @@ router.post("/add", async (req, res) => {
 });
 
 router.put("/edit/:id", async (req, res) => {
-    var anime = await Anime.findById(req.params.id);
+    var anime = await Animes.findById(req.params.id);
     if (!anime)
         return res.status(404).send(`Bro, we dont have any anime of such Id..`);
 
@@ -47,7 +47,7 @@ router.put("/edit/:id", async (req, res) => {
 });
 
 router.delete("/delete/:id", async (req, res) => {
-    var anime = await Anime.deleteOne({ _id: req.params.id });
+    var anime = await Animes.deleteOne({ _id: req.params.id });
     if (!anime) return res.status(404).send("ID not found");
     console.log(anime);
 
