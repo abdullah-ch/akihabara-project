@@ -1,0 +1,15 @@
+[{
+  "_id": {
+    "$oid": "5ed896fb4799003de83e41ff"
+  },
+  "cusName": "Huraira",
+  "cusPhoneNumber": "0321-8488822",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ed897684799003de83e4201"
+  },
+  "cusName": "Abdullah Ch",
+  "cusPhoneNumber": "0312-4108473",
+  "__v": 0
+}]

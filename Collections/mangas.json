@@ -1,0 +1,55 @@
+[{
+  "_id": {
+    "$oid": "5ed8cb0fb2c21040d0c1cd5e"
+  },
+  "mangaName": "Bleach",
+  "mangaAuthor": "Kubo tite",
+  "mangaRating": 8,
+  "price": 700,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ed8cb19b2c21040d0c1cd5f"
+  },
+  "mangaName": "Burn the witch",
+  "mangaAuthor": "Kubo tite",
+  "mangaRating": 8,
+  "price": 700,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ed8cb2eb2c21040d0c1cd60"
+  },
+  "mangaName": "KKKKK",
+  "mangaAuthor": "Kubo tite",
+  "mangaRating": 8,
+  "price": 700,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ed8f31908c6274e1c7573db"
+  },
+  "mangaName": "Bruh",
+  "mangaAuthor": "Kubo tite",
+  "mangaRating": 8,
+  "price": 700,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ed8f32608c6274e1c7573dc"
+  },
+  "mangaName": "Bleach",
+  "mangaAuthor": "Kubo tite",
+  "mangaRating": 8,
+  "price": 700,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ed8f33008c6274e1c7573dd"
+  },
+  "mangaName": "Burn The Witch",
+  "mangaAuthor": "Kubo tite",
+  "mangaRating": 8,
+  "price": 700,
+  "__v": 0
+}]

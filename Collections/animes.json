@@ -1,0 +1,45 @@
+[{
+  "_id": {
+    "$oid": "5ed8b7c85dd9a92a0848cf5f"
+  },
+  "animeName": "Kuzo no Honkai",
+  "animeStudio": "Sombe",
+  "animeDirector": "M Abdullah",
+  "rating": 5,
+  "genre": "horror",
+  "price": 2998,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ed8b8195dd9a92a0848cf60"
+  },
+  "animeName": "Yuri is gay",
+  "animeStudio": "Sombe",
+  "animeDirector": "M Abdullah",
+  "rating": 5,
+  "genre": "horror",
+  "price": 2998,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ed8b84b5dd9a92a0848cf61"
+  },
+  "animeName": "Bleach",
+  "animeStudio": "Sombe",
+  "animeDirector": "M Abdullah",
+  "rating": 5,
+  "genre": "horror",
+  "price": 2998,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ed8b8525dd9a92a0848cf62"
+  },
+  "animeName": "Berserk, bro",
+  "animeStudio": "Sombe",
+  "animeDirector": "M Abdullah",
+  "rating": 5,
+  "genre": "horror",
+  "price": 2998,
+  "__v": 0
+}]

@@ -1,0 +1,31 @@
+[{
+  "_id": {
+    "$oid": "5ed8a2eb6fb5e6075c630878"
+  },
+  "empName": "Ichigo",
+  "empSalaray": 4000,
+  "dateOfBirth": "1-3-1900",
+  "empPhoneNumber": "23132133",
+  "address": "house no 5A-street 56-Lahore",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ed8a5276fb5e6075c630879"
+  },
+  "empName": "H",
+  "empSalaray": 0,
+  "dateOfBirth": "1-3-1900",
+  "empPhoneNumber": "231321323",
+  "address": "some address",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ed8a56d6fb5e6075c63087a"
+  },
+  "empName": "Abdul moeed",
+  "empSalaray": 9234,
+  "dateOfBirth": "3-5-2018",
+  "empPhoneNumber": "0231-324",
+  "address": "Lahore",
+  "__v": 0
+}]

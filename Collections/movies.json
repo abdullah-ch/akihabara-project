@@ -1,0 +1,12 @@
+[{
+  "_id": {
+    "$oid": "5ed8c911b2c21040d0c1cd5a"
+  },
+  "movieName": "jl",
+  "movieDirector": "hack",
+  "rating": 1,
+  "screenplay": "jj",
+  "genre": "comedy",
+  "price": 0,
+  "__v": 0
+}]
