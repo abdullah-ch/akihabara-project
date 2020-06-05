@@ -50,22 +50,22 @@ function App() {
         <Route path="/music" exact component={MusicList} />
 
         <Route path="/anime/edit" component={EditAnimeList} />
-        <Route path="/customers/edit" exact component={EditCustomerList} />
-        <Route path="/movies/edit" exact component={EditMovieList} />
-        <Route path="/merch/edit" exact component={EditMerchList} />
-        <Route path="/mangas/edit" exact component={EditMangaList} />
-        <Route path="/employees/edit" exact component={EditEmployeeList} />
-        <Route path="/games/edit" exact component={EditGameList} />
-        <Route path="/music/edit" exact component={EditMusicList} />
+        <Route path="/customers/edit"  component={EditCustomerList} />
+        <Route path="/movies/edit"  component={EditMovieList} />
+        <Route path="/merch/edit"  component={EditMerchList} />
+        <Route path="/mangas/edit"  component={EditMangaList} />
+        <Route path="/employees/edit"  component={EditEmployeeList} />
+        <Route path="/games/edit"  component={EditGameList} />
+        <Route path="/music/edit"  component={EditMusicList} />
 
         <Route path="/anime/create" component={CreateAnimeList} />
-        <Route path="/customers/create" exact component={CreateCustomerList} />
-        <Route path="/movies/create" exact component={CreateMovieList} />
-        <Route path="/merch/create" exact component={CreateMerchList} />
-        <Route path="/mangas/create" exact component={CreateMangaList} />
-        <Route path="/employees/create" exact component={CreateEmployeeList} />
-        <Route path="/games/create" exact component={CreateGameList} />
-        <Route path="/music/create" exact component={CreateMusicList} />
+        <Route path="/customers/create"  component={CreateCustomerList} />
+        <Route path="/movies/create"  component={CreateMovieList} />
+        <Route path="/merch/create"  component={CreateMerchList} />
+        <Route path="/mangas/create"  component={CreateMangaList} />
+        <Route path="/employees/create"  component={CreateEmployeeList} />
+        <Route path="/games/create"  component={CreateGameList} />
+        <Route path="/music/create"  component={CreateMusicList} />
       </div>
     </Router>
   );
