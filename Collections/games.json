@@ -25,4 +25,76 @@
   "genre": "Bro",
   "price": 334,
   "__v": 0
+},{
+  "_id": {
+    "$oid": "5edb45247df4ad43d89b4e5c"
+  },
+  "gameName": "Rainbow six siege",
+  "gameStudio": "Ubisoft",
+  "genre": "Tactical shooter",
+  "price": 6000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5edb45887df4ad43d89b4e5d"
+  },
+  "gameName": "Bloodbourne",
+  "gameStudio": "Lt studios",
+  "genre": "Action",
+  "price": 7000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5edb45cf7df4ad43d89b4e5e"
+  },
+  "gameName": "Pak Studies ki Assignment",
+  "gameStudio": "Cs18",
+  "genre": "Self Respect's Sacrifice",
+  "price": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5edb46887df4ad43d89b4e5f"
+  },
+  "gameName": "Trip to Katwana",
+  "gameStudio": "Fun Venture Studios",
+  "genre": "HijabCeption",
+  "price": 3400,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5edb46b57df4ad43d89b4e60"
+  },
+  "gameName": "Sekiro",
+  "gameStudio": "2k Games",
+  "genre": "Action Adventure",
+  "price": 7000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5edb46eb7df4ad43d89b4e61"
+  },
+  "gameName": "Call of duty",
+  "gameStudio": "Activision",
+  "genre": "First Person Shooter",
+  "price": 7000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5edb477b7df4ad43d89b4e62"
+  },
+  "gameName": "Spiderman ps4",
+  "gameStudio": "Montreal",
+  "genre": "Action Adventure",
+  "price": 7000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5edb47c07df4ad43d89b4e63"
+  },
+  "gameName": "Outlast",
+  "gameStudio": "2k Studios",
+  "genre": "Horror",
+  "price": 6000,
+  "__v": 0
 }]

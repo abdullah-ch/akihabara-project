@@ -1,31 +1,101 @@
 [{
   "_id": {
-    "$oid": "5ed8a2eb6fb5e6075c630878"
-  },
-  "empName": "Ichigo",
-  "empSalaray": 4000,
-  "dateOfBirth": "1-3-1900",
-  "empPhoneNumber": "23132133",
-  "address": "house no 5A-street 56-Lahore",
-  "__v": 0
-},{
-  "_id": {
-    "$oid": "5ed8a5276fb5e6075c630879"
-  },
-  "empName": "H",
-  "empSalaray": 0,
-  "dateOfBirth": "1-3-1900",
-  "empPhoneNumber": "231321323",
-  "address": "some address",
-  "__v": 0
-},{
-  "_id": {
     "$oid": "5ed8a56d6fb5e6075c63087a"
   },
-  "empName": "Abdul moeed",
-  "empSalaray": 9234,
-  "dateOfBirth": "3-5-2018",
-  "empPhoneNumber": "0231-324",
-  "address": "Lahore",
+  "empName": "Abdullah",
+  "empSalaray": 23132112,
+  "dateOfBirth": "ddq323",
+  "empPhoneNumber": "23132113",
+  "address": "sadasdad",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5edb412c7df4ad43d89b4e51"
+  },
+  "empName": "Sidique",
+  "empSalaray": 10000,
+  "dateOfBirth": "20 3 1949",
+  "empPhoneNumber": "03097256104",
+  "address": "Nivan Mohala Akbar chowk",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5edb41bb7df4ad43d89b4e53"
+  },
+  "empName": "Ikram Chaudhary",
+  "empSalaray": 30000,
+  "dateOfBirth": "3 2 1997",
+  "empPhoneNumber": "03338641568",
+  "address": "modal town",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5edb42277df4ad43d89b4e54"
+  },
+  "empName": "Anwar",
+  "empSalaray": 1000,
+  "dateOfBirth": "4 8 1856",
+  "empPhoneNumber": "03046890452",
+  "address": "Islampura",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5edb428b7df4ad43d89b4e55"
+  },
+  "empName": "Waleejah",
+  "empSalaray": 20000000,
+  "dateOfBirth": "1 7 1996",
+  "empPhoneNumber": "03064590237",
+  "address": "Gulla But wali Gali Near Ichra",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5edb43147df4ad43d89b4e56"
+  },
+  "empName": "Nasrullah Michael Ansari",
+  "empSalaray": 2000,
+  "dateOfBirth": "13 4 1982",
+  "empPhoneNumber": "03116894302",
+  "address": "7th Floor Ashiyana Flat ",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5edb43697df4ad43d89b4e57"
+  },
+  "empName": "Shameem Khan",
+  "empSalaray": 5000,
+  "dateOfBirth": "25 8 1997",
+  "empPhoneNumber": "03052875106",
+  "address": "Korangi ",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5edb43fb7df4ad43d89b4e58"
+  },
+  "empName": "Malik Joseph Satti",
+  "empSalaray": 50000,
+  "dateOfBirth": "17 11 1942",
+  "empPhoneNumber": "03107839201",
+  "address": "Yuhanabad",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5edb44737df4ad43d89b4e59"
+  },
+  "empName": "Zaman",
+  "empSalaray": 500,
+  "dateOfBirth": "6 9 1969",
+  "empPhoneNumber": "03096529860",
+  "address": "Heavy Katgaya Mohala",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5edb44b37df4ad43d89b4e5a"
+  },
+  "empName": "Nazir",
+  "empSalaray": 5000000,
+  "dateOfBirth": "15 6 1997",
+  "empPhoneNumber": "0333 6723891",
+  "address": "Gothki Mirwah",
   "__v": 0
 }]

@@ -11,35 +11,101 @@
   "__v": 0
 },{
   "_id": {
-    "$oid": "5ed8b8195dd9a92a0848cf60"
+    "$oid": "5edb50857df4ad43d89b4e80"
   },
-  "animeName": "Yuri is gay",
-  "animeStudio": "Sombe",
-  "animeDirector": "M Abdullah",
-  "rating": 5,
-  "genre": "horror",
-  "price": 2998,
+  "animeName": "Yuri on Ice",
+  "animeStudio": "Yaoi",
+  "animeDirector": "Yaoi",
+  "rating": 10,
+  "genre": "Romance",
+  "price": 10000,
   "__v": 0
 },{
   "_id": {
-    "$oid": "5ed8b84b5dd9a92a0848cf61"
+    "$oid": "5edb50d17df4ad43d89b4e81"
   },
-  "animeName": "Bleach",
-  "animeStudio": "Sombe",
-  "animeDirector": "M Abdullah",
-  "rating": 5,
-  "genre": "horror",
-  "price": 2998,
+  "animeName": "demon slayer",
+  "animeStudio": "ufotable",
+  "animeDirector": "me",
+  "rating": 1,
+  "genre": "comedy",
+  "price": 1,
   "__v": 0
 },{
   "_id": {
-    "$oid": "5ed8b8525dd9a92a0848cf62"
+    "$oid": "5edb510e7df4ad43d89b4e82"
   },
-  "animeName": "Berserk, bro",
-  "animeStudio": "Sombe",
-  "animeDirector": "M Abdullah",
-  "rating": 5,
-  "genre": "horror",
-  "price": 2998,
+  "animeName": "Haikyu!!",
+  "animeStudio": "Yaoi",
+  "animeDirector": "Haruichi Furudate",
+  "rating": 10,
+  "genre": "Sports",
+  "price": 10000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5edb512a7df4ad43d89b4e83"
+  },
+  "animeName": "Another",
+  "animeStudio": "Scream",
+  "animeDirector": "Scream",
+  "rating": 10,
+  "genre": "Horror",
+  "price": 10000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5edb514e7df4ad43d89b4e84"
+  },
+  "animeName": "Joker",
+  "animeStudio": "Hack",
+  "animeDirector": "Zaddy",
+  "rating": 10,
+  "genre": "Snyder",
+  "price": 10,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5edb51677df4ad43d89b4e85"
+  },
+  "animeName": "Adventures of Zaddy",
+  "animeStudio": "Zaddy",
+  "animeDirector": "Zaddy",
+  "rating": 10,
+  "genre": "Zaddy",
+  "price": 10000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5edb51867df4ad43d89b4e86"
+  },
+  "animeName": "Black Clover",
+  "animeStudio": "Bad animation",
+  "animeDirector": "Good ",
+  "rating": 8,
+  "genre": "Shonen",
+  "price": 100,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5edb51a17df4ad43d89b4e87"
+  },
+  "animeName": "Naruto",
+  "animeStudio": "Sasuke",
+  "animeDirector": "Hinata",
+  "rating": 10,
+  "genre": "Trauma",
+  "price": 1000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5edb51bb7df4ad43d89b4e88"
+  },
+  "animeName": "Sinbad",
+  "animeStudio": "Alladin",
+  "animeDirector": "Zofia",
+  "rating": 10,
+  "genre": "Genie",
+  "price": 10,
   "__v": 0
 }]

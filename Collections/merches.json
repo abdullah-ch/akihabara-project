@@ -1,9 +1,81 @@
 [{
   "_id": {
-    "$oid": "5ed8c9beb2c21040d0c1cd5b"
+    "$oid": "5edb4b637df4ad43d89b4e6a"
   },
-  "merchName": "waifu",
-  "merchType": "Sexdoll",
-  "price": 200000,
+  "merchName": "Pewdiepie Merch",
+  "merchType": "Celeb Merch",
+  "price": 30000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5edb4b7b7df4ad43d89b4e6b"
+  },
+  "merchName": "CarryMinati's Merch",
+  "merchType": "Celeb Merch",
+  "price": 30000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5edb4be27df4ad43d89b4e6c"
+  },
+  "merchName": "Dante's Costume",
+  "merchType": "Devil May Cry Merch",
+  "price": 40000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5edb4c147df4ad43d89b4e6d"
+  },
+  "merchName": "Vaas's Coustume",
+  "merchType": "Far Cry Merch",
+  "price": 50000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5edb4c447df4ad43d89b4e6e"
+  },
+  "merchName": "Akira's Devil Form Costume ",
+  "merchType": "DevilMan Crybaby's Merch",
+  "price": 20000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5edb4c8c7df4ad43d89b4e6f"
+  },
+  "merchName": "Ash's Costume",
+  "merchType": "Game Merch",
+  "price": 30000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5edb4ca37df4ad43d89b4e70"
+  },
+  "merchName": "Lion's Costume",
+  "merchType": "Rainbow six merch",
+  "price": 20000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5edb4cc07df4ad43d89b4e71"
+  },
+  "merchName": "Ken Kaneki's Mask",
+  "merchType": "Tokyo Ghoul Anime merch",
+  "price": 10000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5edb4cea7df4ad43d89b4e72"
+  },
+  "merchName": "Asta's Hairband",
+  "merchType": "Black Clover Anime merch",
+  "price": 10000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5edb4d077df4ad43d89b4e73"
+  },
+  "merchName": "Leaf Village Hairband",
+  "merchType": "Naruto Anime Merch",
+  "price": 12000,
   "__v": 0
 }]

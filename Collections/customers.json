@@ -7,9 +7,65 @@
   "__v": 0
 },{
   "_id": {
-    "$oid": "5ed897684799003de83e4201"
+    "$oid": "5eda2adbf529854920197003"
   },
-  "cusName": "Abdullah Ch",
-  "cusPhoneNumber": "0312-4108473",
+  "cusName": "Abdurehman",
+  "cusPhoneNumber": "023132-42321",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5eda696d78efd86818e1e936"
+  },
+  "cusName": "Ali",
+  "cusPhoneNumber": "02134-2344",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5eda698078efd86818e1e937"
+  },
+  "cusName": "Ichigo",
+  "cusPhoneNumber": "01224-88710",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5edb49e97df4ad43d89b4e64"
+  },
+  "cusName": "shakil",
+  "cusPhoneNumber": "03337829465",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5edb4a017df4ad43d89b4e65"
+  },
+  "cusName": "nadeem",
+  "cusPhoneNumber": "03087698456",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5edb4a267df4ad43d89b4e66"
+  },
+  "cusName": "mudassir ",
+  "cusPhoneNumber": "031267896437",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5edb4a5a7df4ad43d89b4e67"
+  },
+  "cusName": "Mohammad Ali Zuljinnah",
+  "cusPhoneNumber": "03045876109",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5edb4a7c7df4ad43d89b4e68"
+  },
+  "cusName": "Laddan Jafari",
+  "cusPhoneNumber": "03226749086",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5edb4a977df4ad43d89b4e69"
+  },
+  "cusName": "Uzma Khan",
+  "cusPhoneNumber": "03216574869",
   "__v": 0
 }]

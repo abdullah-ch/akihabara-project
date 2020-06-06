@@ -1,10 +1,100 @@
 [{
   "_id": {
-    "$oid": "5ed8ca16b2c21040d0c1cd5d"
+    "$oid": "5edb3d9d7df4ad43d89b4e41"
   },
-  "musicName": "game",
-  "singer": "simpson",
-  "releaseYear": "2012",
-  "price": 22,
+  "musicName": "Lust For Life",
+  "singer": "Lana Del Ray",
+  "releaseYear": "2001",
+  "price": 1000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5edb3eee7df4ad43d89b4e42"
+  },
+  "musicName": "Angel",
+  "singer": "Tahir Shah",
+  "releaseYear": "2014",
+  "price": 9000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5edb3f197df4ad43d89b4e43"
+  },
+  "musicName": "Love",
+  "singer": "Rihanna",
+  "releaseYear": "2019",
+  "price": 900,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5edb3f317df4ad43d89b4e44"
+  },
+  "musicName": "Vice",
+  "singer": "AC",
+  "releaseYear": "2020",
+  "price": 1000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5edb3f4a7df4ad43d89b4e45"
+  },
+  "musicName": "Morality",
+  "singer": "H",
+  "releaseYear": "2019",
+  "price": 29000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5edb3f657df4ad43d89b4e46"
+  },
+  "musicName": "Jutt Da Muqabla",
+  "singer": "Sidhu Mosee Wal",
+  "releaseYear": "2000",
+  "price": 1000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5edb3f907df4ad43d89b4e47"
+  },
+  "musicName": "Despacito",
+  "singer": "Lahori Justin Beiber",
+  "releaseYear": "2001",
+  "price": 700,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5edb3fac7df4ad43d89b4e48"
+  },
+  "musicName": "K",
+  "singer": "Wilson",
+  "releaseYear": "2004",
+  "price": 10,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5edb3fbf7df4ad43d89b4e49"
+  },
+  "musicName": "Senorita",
+  "singer": "Mehwish",
+  "releaseYear": "2017",
+  "price": 2000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5edb3fe47df4ad43d89b4e4a"
+  },
+  "musicName": "Service Shoes",
+  "singer": "Aunty Parween",
+  "releaseYear": "2018",
+  "price": 800,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5edb40007df4ad43d89b4e4b"
+  },
+  "musicName": "Jab Ae Ga Imran",
+  "singer": "Atta Ullah ",
+  "releaseYear": "2013",
+  "price": 2890,
   "__v": 0
 }]
