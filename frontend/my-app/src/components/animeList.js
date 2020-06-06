@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import axios from "axios";
 
+
 const Anime = (props) => (
   <tr>
     <td> {props.anime.animeName}</td>
@@ -89,7 +90,7 @@ export default class AnimeList extends Component {
 
         <table class="table table-striped table-dark">
           <thead>
-            <tr>
+            <tr class="bg-info">
               <th scope="col">Anime Name</th>
               <th scope="col">Anime Studio</th>
               <th scope="col">Anime Director</th>

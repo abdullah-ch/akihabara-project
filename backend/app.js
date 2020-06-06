@@ -9,6 +9,10 @@ const music = require("./routers/music");
 const movies = require("./routers/movies");
 const merch = require("./routers/merch");
 
+/////////////////////////////
+
+//////////////////////////////
+
 mongoose
   .connect("mongodb://localhost:27017/akihabara-project", {
     useNewUrlParser: true,

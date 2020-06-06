@@ -88,7 +88,7 @@ export default class MusicList extends Component {
 
         <table class="table table-striped table-dark">
           <thead>
-            <tr>
+            <tr class="bg-danger">
               <th scope="col">Music Name</th>
               <th scope="col">Singer</th>
               <th scope="col">Release Year</th>

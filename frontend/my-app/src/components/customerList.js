@@ -85,7 +85,7 @@ export default class CustomerList extends Component {
 
         <table class="table table-striped table-dark">
           <thead>
-            <tr>
+            <tr class="bg-danger">
               <th scope="col">Customer Name</th>
               <th scope="col">Customer Phone</th>
               <th scope="col">Actions</th>
