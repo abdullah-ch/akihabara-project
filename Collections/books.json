@@ -1,0 +1,41 @@
+[{
+  "_id": {
+    "$oid": "5edb688ffaf5da5e4cd09fbd"
+  },
+  "bookName": "Silence of the lambs",
+  "rating": 10,
+  "genre": "Dark",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5edb68c0f93aac40040c7f29"
+  },
+  "bookName": "Fault in our start",
+  "rating": 10,
+  "genre": "romance",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5edb68d6ce839851e87455f3"
+  },
+  "bookName": "Perks of being a wallflower",
+  "rating": 8,
+  "genre": "Romance",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5edcdc9528aa1813e052390e"
+  },
+  "bookName": "Vampire Diaries",
+  "rating": 5,
+  "genre": "Bloodish",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5edcddcb6f6afd3c08345c2a"
+  },
+  "bookName": "Vdadsadas",
+  "rating": 5,
+  "genre": "drama",
+  "__v": 0
+}]

@@ -1,0 +1,29 @@
+[{
+  "_id": {
+    "$oid": "5edb6a4e388d5e38c0dd8b5f"
+  },
+  "authorName": "Thomas Harris",
+  "book": {
+    "_id": {
+      "$oid": "5edb6a4e388d5e38c0dd8b60"
+    },
+    "bookName": "Perks of being a wallflower",
+    "rating": 8,
+    "genre": "Romance"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5edcfbc39636483810c15a3e"
+  },
+  "authorName": "John Greene",
+  "book": {
+    "_id": {
+      "$oid": "5edcfbc39636483810c15a3f"
+    },
+    "bookName": "Perks of being a wallflower",
+    "rating": 8,
+    "genre": "Romance"
+  },
+  "__v": 0
+}]

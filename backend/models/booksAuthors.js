@@ -138,9 +138,9 @@ async function deleteAuthor(authorId) {
   console.log(author);
 }
 
-//createBook("Perks of being a wallflower", 8, "Romance");
+//createBook("Vdadsadas", 5, "drama");
 
-//createAuthor("John Greene", "5edb68c0f93aac40040c7f29")
+createAuthor("John Greene", "5edb68d6ce839851e87455f3")
 
 //editBook("5edb68c0f93aac40040c7f29", "Manto ki Kahani 2", 10, "Falsafa 2");
 
