@@ -8,9 +8,11 @@ export default class EditAnimeList extends Component {
       animeName: "",
       animeStudio: "",
       animeDirector: "",
-      rating: "",
+      rating: Number,
       genre: "",
-      price: "",
+      price: Number,
+      animeObject: {},
+      errorMessage: "",
     };
     this.onChangeAnimeName = this.onChangeAnimeName.bind(this);
     this.onChangeAnimeStudio = this.onChangeAnimeStudio.bind(this);
@@ -18,8 +20,11 @@ export default class EditAnimeList extends Component {
     this.onChangeAnimeRating = this.onChangeAnimeRating.bind(this);
     this.onChangeAnimeGenre = this.onChangeAnimeGenre.bind(this);
     this.onChangeAnimePrice = this.onChangeAnimePrice.bind(this);
-
+    this.prevState = this.prevState.bind(this); // show the data to be edited
+    this.retainData = this.retainData.bind(this);
     this.onSubmit = this.onSubmit.bind(this);
+
+    this.prevState();
   }
 
   onChangeAnimeName(event) {
@@ -75,6 +80,7 @@ export default class EditAnimeList extends Component {
       price: this.state.price,
       genre: this.state.genre,
     };
+
     console.log(anime);
 
     const path = window.location.pathname.split("/");
@@ -83,13 +89,99 @@ export default class EditAnimeList extends Component {
     axios
       .put("http://localhost:5000/anime/edit/" + id, anime)
       .then((res) => console.log(res.data))
+      .catch((err) => {
+        this.setState({
+          errorMessage: err.message,
+        });
+      });
+
+    window.location = "/anime";
+  }
+
+  prevState(event) {
+    const path = window.location.pathname.split("/");
+    const id = path[path.length - 1];
+    const anime = {
+      id: id,
+    };
+
+    console.log("THE IDD is", id);
+
+    axios
+      .post("http://localhost:5000/anime/find", anime)
+      .then((res) => {
+        this.setState({
+          animeObject: res.data,
+        });
+      })
       .catch((err) => console.log(err));
-      window.location = "/anime";
+
+    this.setState({
+      animeObject: this.state.animeObject,
+    });
+
+    console.log("lets see the animeObject", this.state.animeObject);
+    const animeName = this.state.animeObject.animeName;
+    console.log("anime name hh is", animeName);
+  }
+
+  retainData() {
+    console.log("anime director is", this.state.animeObject.animeDirector);
+    const animeName = this.state.animeObject.animeName;
+    const animeDirector = this.state.animeObject.animeDirector;
+    const animeStudio = this.state.animeObject.animeStudio;
+    const rating = this.state.animeObject.rating;
+    const price = this.state.animeObject.price;
+    const genre = this.state.animeObject.genre;
+
+    this.setState({
+      animeName: animeName,
+      animeDirector: animeDirector,
+      animeStudio: animeStudio,
+      rating: rating,
+      price: price,
+      genre: genre,
+    });
+
+    console.log(this.state.animeName);
+    console.log(this.state.animeDirector);
+  }
+
+  componentDidMount() {
+    setTimeout(() => {
+      this.retainData();
+    }, 500);
   }
 
   render() {
     return (
       <div>
+        <h1> The Anime going to be Edited :-</h1>
+        <table class="table table-striped table-dark">
+          <thead>
+            <tr class="bg-info">
+              <th scope="col">Anime Name</th>
+              <th scope="col">Anime Studio</th>
+              <th scope="col">Anime Director</th>
+              <th scope="col">Rating</th>
+              <th scope="col">Genre</th>
+              <th scope="col">Price</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td> {this.state.animeObject.animeName}</td>
+              <td> {this.state.animeObject.animeStudio}</td>
+              <td> {this.state.animeObject.animeDirector}</td>
+              <td> {this.state.animeObject.rating}</td>
+              <td> {this.state.animeObject.genre}</td>
+              <td> {this.state.animeObject.price}</td>
+            </tr>
+          </tbody>
+        </table>
+        <br></br>
+        <br></br>
+        <br></br>
         <h2>Enter the Anime Name </h2>
         <form onSubmit={this.onSubmit}>
           <br></br>

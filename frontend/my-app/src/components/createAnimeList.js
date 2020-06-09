@@ -8,9 +8,9 @@ export default class CreateAnimeList extends Component {
       animeName: "",
       animeStudio: "",
       animeDirector: "",
-      rating: "",
+      rating: Number,
       genre: "",
-      price: "",
+      price: Number,
     };
     this.onChangeAnimeName = this.onChangeAnimeName.bind(this);
     this.onChangeAnimeStudio = this.onChangeAnimeStudio.bind(this);
@@ -77,6 +77,8 @@ export default class CreateAnimeList extends Component {
     };
     console.log(anime);
 
+
+
     axios
       .post("http://localhost:5000/anime/add", anime)
       .then((res) => console.log(res.data))
@@ -124,6 +126,7 @@ export default class CreateAnimeList extends Component {
             type="text"
             onChange={this.onChangeAnimeRating}
             value={this.state.rating}
+            placeholder="Must be a Number"
           />
 
           <br></br>
@@ -134,6 +137,7 @@ export default class CreateAnimeList extends Component {
             type="text"
             onChange={this.onChangeAnimePrice}
             value={this.state.price}
+            placeholder = "Must be a Number"
           />
 
           <br></br>
