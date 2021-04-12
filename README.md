@@ -1,2 +1,2 @@
 # akihabara-project
-MERN Stack Shops Store
+MERN Stack Shop Store
